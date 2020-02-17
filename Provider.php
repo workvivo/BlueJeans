@@ -18,7 +18,7 @@ class Provider extends AbstractProvider
     protected function getAuthUrl($state)
     {
         return $this->buildAuthUrlFromBase(
-            'https://api.bluejeans.com/oauth2/authorize',
+            'https://bluejeans.com/oauth2/authorize',
             $state
         );
     }
